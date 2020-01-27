@@ -85,7 +85,7 @@ public class Hangman {
 	    	   guesses = 5;
 	    	   
 	       }
-	       else {
+	         else {
 	    	   char guess= Player.charAt(0);
 	    	   int g = 0;
 	    	   for (int j = 0; j < currentWord.length();j++) {
@@ -123,8 +123,8 @@ public class Hangman {
     			   }
 	    	   
     			   }
-	       
-	       else {
+	         }
+	        else {
 	    	   RL++;
 	    	   losses++;
 	    	   System.out.println("\nYou are out of guesses, You lost,\nThe word was " + currentWord);
